@@ -1,0 +1,232 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Russo+One&display=swap');
+/* 
+  font-family: 'Roboto', sans-serif;
+  
+*/
+
+
+/************** Default CSS **************/
+:root {
+  --body: #252527;
+  --p: #fff;
+  --a: #fff;
+  --h: #000;
+  --dark: #1F1F20;
+}
+*{
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  background-color:#fff;
+  padding: 0;
+  margin: 0;
+}
+
+a,
+.button,
+button {
+  -webkit-transition: all 0.3s ease-out 0s;
+  transition: all 0.3s ease-out 0s;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #74b9ff;
+}
+
+a:focus,
+button:focus,
+input:focus,
+textarea:focus {
+  text-decoration: none;
+  outline: none;
+}
+
+button {
+  cursor: pointer
+}
+
+ul,
+ol {
+  margin: 0px;
+  padding: 0px;
+}
+
+li {
+  list-style: none
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+ font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: var(--h);
+  text-transform: capitalize;
+  margin-top: 0px;
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 35px;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 28px;
+}
+
+h4 {
+  font-size: 22px;
+}
+
+h5 {
+  font-size: 18px;
+}
+
+h6 {
+  font-size: 16px;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 30px;
+  color: var(--p);
+  margin-bottom: 15px;
+}
+
+a {
+  font-family: 'Roboto', sans-serif;
+  color: var(--a);
+  font-size: 14px;
+  font-weight: 400;
+}
+/************** Default CSS End **************/
+
+
+/************** Template CSS **************/
+
+.input-box {
+    background: #4D7EA8;
+    padding: 20px 30px;
+    border-radius: 5px;
+    margin-top: 50px;
+}
+
+.alert-show h2 {
+    font-size: 20px;
+    color: #B6C2D9;
+    text-align: center;
+    border: 2px solid #ccd1d4cf;
+    padding: 6px 0px;
+    border-radius: 5px;
+    display: none;
+}
+.input-form form input {
+    width: 100%;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid #dddddd6e;
+    margin-bottom: 20px;
+}
+
+.input-form form button,button.clear-item {
+    width: 100%;
+    background: transparent;
+    border: 2px solid #ccd1d4cf;
+    border-radius: 5px;
+    padding: 5px 0px;
+    color: #B6C2D9;
+    font-weight: 700;
+    -webkit-transition: all 0.4s;
+    transition: all 0.4s;
+}
+
+.input-form form button:hover {
+    background: #b6c2d9;
+    border: 2px solid #b6c2d9;
+    color: #272932;
+}
+.input-form h3 {
+    text-align: center;
+    font-size: 22px;
+    margin: 0;
+    padding-top: 5px;
+    color: #B6C2D9;
+}
+
+.result-box {
+    background: #B6C2D9;
+    margin-top: 50px;
+    padding: 30px;
+    border-radius: 8px;
+}
+
+.result-alert h2 {
+  font-size: 20px;
+  color: #4d7ea8;
+  text-align: center;
+  border: 2px solid #4d7ea8;
+  padding: 6px 0px;
+  border-radius: 5px;
+  display: none;
+}
+
+.result-box h3 {
+   text-align: center;
+   font-size: 22px;
+   margin: 0;
+   padding-top: 5px;
+   color: #4d7ea8;
+}
+ul.result-list-item li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+    padding: 5px 10px;
+    -webkit-transition: all .4s ease-in-out;
+       -moz-transition: all .4s ease-in-out;
+        -ms-transition: all .4s ease-in-out;
+         -o-transition: all .4s ease-in-out;
+            transition: all .4s ease-in-out;
+            border-radius: 10px;
+}
+ul.result-list-item li p {
+    color: #000;
+    margin: 0;
+}
+
+ul.result-list-item li:hover {
+    background: #828489;
+}
+ul.result-list-item li i{
+  color: red;
+  cursor: pointer;
+}
+button.clear-item {
+   color: #000;
+   border: 2px solid #4D7EA8;
+   margin-top: 20px;
+}
+.alert{
+      border: 2px solid red !important;
+    color: red !important;
+}
+/************** Template CSS End **************/
